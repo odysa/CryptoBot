@@ -5,7 +5,7 @@
   },
   "overrides": [
     {
-      "files": "*.ts",
+      "files": "./src/*.ts",
       "extends": ["plugin:prettier/recommended", "prettier/@typescript-eslint"],
       "rules": {
         "sort-imports": ["error", { "ignoreCase": true }],
@@ -32,7 +32,7 @@
   "rules": {
     "no-warning-comments": "error"
   },
-  "ignorePatterns": ["/lib/", "/typings/", "/docs/build/"],
+  "ignorePatterns": [ "/dist/"],
   "reportUnusedDisableDirectives": true,
   "plugins": ["ava"]
 }

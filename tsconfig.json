@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "dist/typings",
+    "outDir": "dist/",
+    "rootDir": "src/",
+    "target": "ES2015",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "tsBuildInfoFile": "dist/typings/tsconfig.tsbuildinfo",
+    "noErrorTruncation": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/"]
+}
